@@ -1,0 +1,99 @@
+body {
+    font-family: poppins;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.intro {
+    background-color: #fff;
+    padding: 15px 20px;
+    margin-top: 20px;
+    border-left: 4px solid #003366;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    background-color: #e4e4e4;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0055aa;
+}
+
+button:hover {
+    background-color: #0055aa;
+}
+
+@media screen and (max-width: 600p) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .intro {
+        padding: 10px;
+        margin-top: 15px;
+    }
+    
+    form {
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    .form-group {
+        margin-bottom: 12px;
+    }
+
+    input,
+    textarea {
+        font-size: 14px;
+        padding: 6px;
+    }
+    
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+}

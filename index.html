@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body.dark {
+            background: #111;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JOB APPLICATION FORM</h1>
+    </header>
+
+    <section class="intro">
+        <p>are you ...</p>
+        <h1>
+            <li>Experienced in coding, programming, or working with various technology-related tools that could be useful in a tech company environment?</li>
+            <li>Knowledgeable about specific programming languages, technical skills, or software platforms that are commonly used in the technology industry?</li>
+        </h1>
+    </section>
+
+        <form id="jobapplicationform">
+            <div class="form-group">
+                <label for="email">First Name</label>
+                <input type="text" name="firstname" id="firstname" required />
+            </div>
+
+            <div class="form-group">
+                <label for="email">Last Name</label>
+                <input type="text" name="lastname" id="lastname" required />
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" required />
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" required />
+            </div>
+
+            <div class="form-group">
+                <label for="bio">Bio</label>
+                <textarea name="bio" id="bio" rows="4"></textarea>
+            </div>
+
+            <button class="submit">submit</button>
+        </form>
+
+        <script src="main.js"></script>
+
+        <input type="checkbox" onclick="document.body.classList.toggle('dark')">
+    
+</body>
+</html>
